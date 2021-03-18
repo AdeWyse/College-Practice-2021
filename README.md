@@ -6,5 +6,6 @@ Will be adding to it as I advance in the course.
 
 As most of exercices come from my theachers the variablesm input texts and output  will be mixed with portuguese.
 
-##Languages
+## Languages:
+
 C , ...
