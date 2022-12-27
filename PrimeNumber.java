@@ -38,3 +38,41 @@ public class Main
 
 
 }
+
+
+/*Javascript code
+
+function main (params) {
+    const primeNumbers = [];
+    //Starts from 2 since 2 is the first prime number;
+    for(var j = 2; j<= 1000;j++){
+        if(DecidePrime(j) == 1){
+            primeNumbers.push(j);
+        }
+    }
+    
+    var sum = primeNumbers.reduce(SumArray, 0);
+    
+    return sum;
+}
+
+//Returns 1 for prime number and  0 for non prime number
+function DecidePrime(num){
+    
+    for(var i = 2; i <= 1000; i++){
+        if(num <= i){
+            break;
+        }
+        if(num % i == 0 && num != i){
+            return 0;
+            break;
+        }
+    }
+    
+    return 1;
+}
+
+//Auxiliary for the reduce function
+function SumArray(total, num){
+    return total + num;
+} */
